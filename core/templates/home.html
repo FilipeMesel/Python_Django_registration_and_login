@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Home</title>
+</head>
+<body class="home-body">
+    <header class="home-header"></header>
+    <h1 class="home-h1">Bem-vindo, {{ user_name }}</h1>
+    <p class="home-p">ID do usuário: {{ user_id }}</p>
+    <a class="home-a" href="{% url 'logout' %}">Logout</a>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* Estilize o corpo da página */
+.login-form-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilize o título */
+.login-form-h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilize o formulário */
+.login-form-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.home-h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.home-p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.home-a {
+    text-decoration: none;
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.home-a:hover {
+    background-color: #c9302c;
+}
+
+/* Estilize os rótulos dos campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilize os campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilize o botão de login */
+.login-form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilize o botão de login quando passar o mouse */
+.login-form-button:hover {
+    background-color: #0056b3;
+}
